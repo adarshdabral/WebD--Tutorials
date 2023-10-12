@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- Document type declaration -->
+<html> <!-- Root element -->
+<head> <!-- Document metadata -->
+  <meta> <!-- Metadata about the document -->
+  <title> <!-- Title of the document -->
+</head>
+<body> <!-- Document content -->
+</html>
+
+
+<h1> to <h6> <!-- Headings (largest to smallest) -->
+<p> <!-- Paragraph -->
+<strong> <!-- Strong (bold) text -->
+<em> <!-- Emphasized (italic) text -->
+<span> <!-- Inline container for styling or scripting -->
+<blockquote> <!-- Blockquote -->
+<pre> <!-- Preformatted text -->
+
+
+
+
+<ul> <!-- Unordered list -->
+  <li> <!-- List item -->
+</ul>
+
+<ol> <!-- Ordered list -->
+  <li> <!-- List item -->
+</ol>
+
+<dl> <!-- Description list -->
+  <dt> <!-- Term (description title) -->
+  <dd> <!-- Description (associated with term) -->
+</dl>
+
+
+
+<a href="url"> <!-- Anchor (hyperlink) -->
+<img src="image.jpg" alt="Description">
+<table> <!-- Table -->
+  <tr> <!-- Table row -->
+    <th> <!-- Table header cell -->
+    <td> <!-- Table data cell -->
+  </tr>
+</table>
+
+
+<form action="submit.php" method="POST"> <!-- Form -->
+  <input type="text" name="username"> <!-- Text input -->
+  <textarea name="comments"></textarea> <!-- Textarea input -->
+  <select name="country"> <!-- Dropdown (select) menu -->
+    <option value="us">United States</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+
+<header> <!-- Document header -->
+<nav> <!-- Navigation menu -->
+<article> <!-- Article or content section -->
+<section> <!-- Generic section or division -->
+<aside> <!-- Sidebar content -->
+<footer> <!-- Document footer -->
+<main> <!-- Main content of the document -->
+
+
+<div> <!-- Generic container for grouping and styling -->
+<hr> <!-- Horizontal rule (line) -->
+<br> <!-- Line break (text-level) -->
+<iframe> <!-- Inline frame for embedding content -->
+
+
