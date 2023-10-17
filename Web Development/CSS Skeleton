@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Basics</title>
+    <style>
+        /* This is an inline CSS example */
+        h1 {
+            color: blue;
+        }
+
+        /* This is an internal CSS example */
+        style.css {
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="external.css">
+</head>
+<body>
+    <h1>Introduction to CSS</h1>
+    
+    <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of web pages. It allows you to style HTML elements and make your web pages visually appealing.</p>
+
+    <h2>Types of CSS</h2>
+    <ul>
+        <li><strong>Inline CSS:</strong> Applied directly to individual HTML elements using the <code>style</code> attribute.</li>
+        <li><strong>Internal CSS:</strong> Defined within the <code>&lt;style&gt;</code> element in the HTML <code>&lt;head&gt;</code>.</li>
+        <li><strong>External CSS:</strong> Stored in a separate .css file and linked to the HTML document using the <code>&lt;link&gt;</code> element.</li>
+    </ul>
+
+    <h2>Selectors and Properties</h2>
+    <p>CSS works with selectors and properties:</p>
+    <ul>
+        <li><strong>Selectors:</strong> Define which HTML elements the CSS rules will apply to. Common selectors include element names, classes, and IDs.</li>
+        <li><strong>Properties:</strong> Specify the style you want to apply, such as color, font size, margin, padding, and more.</li>
+    </ul>
+
+    <h2>Examples</h2>
+    <p>Here are some CSS examples:</p>
+
+    <div class="example">
+        <p>This text is styled with external CSS.</p>
+    </div>
+
+    <p style="color: green;">This text is styled with inline CSS.</p>
+
+    <style.css>
+        .example {
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style.css>
+
+    <h2>Cascading Style Sheets</h2>
+    <p>The "Cascading" part of CSS refers to the order of importance when multiple styles are applied. CSS rules can be overridden by more specific selectors or by rules with higher specificity.</p>
+    
+    <p>CSS properties cascade from top to bottom, and more specific rules take precedence.</p>
+
+    <h2>Conclusion</h2>
+    <p>CSS is a powerful tool for designing and formatting web pages. It allows you to control the layout, colors, fonts, and other visual aspects of your website.</p>
+</body>
+</html>
